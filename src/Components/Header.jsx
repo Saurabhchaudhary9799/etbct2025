@@ -35,7 +35,7 @@ const Header = () => {
             isOpen ? "opacity-100" : "hidden"
           } lg:block md:py-0 py-4 transition-all ease-in duration-300`}
         >
-          <ul className="flex flex-col  md:flex-row items-start justify-center md:justify-center md:items-center gap-y-5 md:gap-x-4 text-white text-sm">
+          <ul className="flex flex-col  md:flex-row items-start justify-center md:justify-center md:items-center gap-y-5 md:gap-x-3 text-white text-[15px]">
             <li className="hover:-translate-y-1 transition-all">
               <Link
                 to={"/"}

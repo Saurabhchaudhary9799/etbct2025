@@ -12,11 +12,14 @@ const Header = () => {
   };
   return (
     <>
-      <header className="sticky top-0 lg:flex justify-around items-center  bg-sky-800 py-2  z-50 ">
-        <div className="flex justify-between items-center px-4">
+      <header className=" lg:flex justify-around items-center  bg-sky-800 py-2   ">
+        <div className="flex justify-around items-center px-4">
+          <Link to="/">
           <div className="text-2xl font-bold text-white ">
             ETBCT 2025 <span className="text-orange-500">| SMVDU</span>
           </div>
+          </Link>
+          
           <div className="block lg:hidden cursor-pointer" onClick={handleMenu}>
             {isOpen ? (
               <IoClose size={30} color="white" />
@@ -32,7 +35,7 @@ const Header = () => {
             isOpen ? "opacity-100" : "hidden"
           } lg:block md:py-0 py-4 transition-all ease-in duration-300`}
         >
-          <ul className="flex flex-col  md:flex-row items-start justify-center md:justify-center md:items-center gap-y-5 md:gap-x-5 text-white ">
+          <ul className="flex flex-col  md:flex-row items-start justify-center md:justify-center md:items-center gap-y-5 md:gap-x-4 text-white text-sm">
             <li className="hover:-translate-y-1 transition-all">
               <Link
                 to={"/"}

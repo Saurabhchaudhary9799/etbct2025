@@ -25,13 +25,13 @@ const SponsorsTable = () => {
       <div className="hidden md:block overflow-x-auto">
         <table className="min-w-full table-auto text-left border-collapse">
           <thead>
-            <tr className="bg-gray-200 text-gray-600 uppercase text-xl leading-normal">
+            <tr className="bg-gray-200 text-gray-600 uppercase text-lg leading-normal">
               <th className="py-3 px-6">Sponsors (Category)</th>
               <th className="py-3 px-6">Offer(s)</th>
               <th className="py-3 px-6">Rate</th>
             </tr>
           </thead>
-          <tbody className="text-gray-700 text-lg">
+          <tbody className="text-gray-700 text-sm">
             {sponsors.map((sponsor, index) => (
               <tr key={index} className="border-b border-gray-200 hover:bg-gray-100">
                 <td className="py-3 px-6">{sponsor.category}</td>

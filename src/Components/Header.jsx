@@ -33,9 +33,9 @@ const Header = () => {
         <div
           className={` nav ${
             isOpen ? "opacity-100" : "hidden"
-          } lg:block md:py-0 py-4 transition-all ease-in duration-300`}
+          } lg:block lg:py-0 py-4 transition-all ease-in duration-300`}
         >
-          <ul className="flex flex-col  md:flex-row items-start justify-center md:justify-center md:items-center gap-y-5 gap-x-4 lg:gap-x-5 text-white text-sm xl:text-lg">
+          <ul className="flex flex-col  lg:flex-row items-start justify-center lg:justify-center lg:items-center gap-y-5 gap-x-4 lg:gap-x-5 text-white text-sm ">
             <li className="hover:-translate-y-1 transition-all">
               <Link
                 to={"/"}

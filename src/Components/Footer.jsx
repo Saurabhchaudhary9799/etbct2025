@@ -5,7 +5,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className='bg-[#000] text-white flex flex-col items-center justify-center text-lg md:text-xl py-10 gap-y-10'>
+    <div className='bg-[#000] text-white flex flex-col items-center justify-center text-lg md:text-xl py-10 gap-y-10 px-8'>
       <div className="flex justify-center gap-6 mb-4">
         <a href="https://www.facebook.com/SMVDUniversity/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-500 transition-colors">
           <FaFacebook size={30} />
@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
       </div>
       <a  href="https://drive.google.com/file/d/1Ijn0UEHqoF2Mb0uC33wDSYTBp9GdNUCe/view?usp=sharing" className='bg-orange-500 text-white animate-bounce  p-3 rounded-xl' target='_blank'>Download Brochure</a>
-      <p>Shri Mata Vaishno Devi University @2024 All Rights Reserved</p>
+      <p className='text-center '>Shri Mata Vaishno Devi University @2024 All Rights Reserved</p>
     </div>
   );
 };

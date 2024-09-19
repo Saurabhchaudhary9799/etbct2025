@@ -14,13 +14,13 @@ const RegisterPage = () => {
               Registration
             </h1>
 
-            <p className="text-xl ">
+            <p className="text-lg ">
               Participants are requested to register for the conference by
               filling the registration form.
             </p>
             <a
               href="https://forms.gle/6pwGomGnApfKxhTU7"
-              className="text-orange-500 underline text-xl flex gap-x-3 items-center"
+              className="text-orange-500 underline text-lg flex gap-x-3 items-center"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@ const RegisterPage = () => {
                 <FaExternalLinkAlt />
               </span>
             </a>
-            <p className="text-xl ">
+            <p className="text-lg ">
               *All the registered delegates shall be entitled to Conference kit,
               participation in all sessions, participatory certificate, 2 high
               tea, 1 breakfast, 2 lunches and 1 dinner.
@@ -43,7 +43,7 @@ const RegisterPage = () => {
 
             {/* Responsive Table */}
             <div className="overflow-x-auto">
-              <table className="table border-collapse w-full text-xl">
+              <table className="table border-collapse w-full text-lg">
                 <thead>
                   <tr className="bg-gray-100">
                     <th className="border border-slate-300 p-3 text-center">
@@ -54,7 +54,7 @@ const RegisterPage = () => {
                     </th>
                     <th className="border border-slate-300 p-3 text-center whitespace-normal">
                       Early Bird <br />
-                      (Upto 30.09.2024)
+                      (Upto 30.11.2024)
                     </th>
                     <th className="border border-slate-300 p-3 text-center">
                       Late Registration
@@ -172,12 +172,12 @@ const RegisterPage = () => {
               </table>
             </div>
 
-            <p className="text-xl font-bold mt-4">
+            <p className="text-lg font-bold mt-4">
               *Additional Rs. 500 for National and 50$ for International
               Delegates those who are interested to attend the workshop.
             </p>
 
-            <p className="text-xl pb-3">
+            <p className="text-lg pb-3">
               For Key-note speakers, accommodation shall be arranged by the
               organizers. Accommodation for other delegates of ETBCT-2025 would
               be available on a sharing basis at reasonable prices in hotels at

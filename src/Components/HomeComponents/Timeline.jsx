@@ -6,15 +6,10 @@ import Countdown from "./Countdown";
 
 const Timeline = () => {
   return (
-    <div className="timeline-section bg-sky-800 flex flex-col gap-y-10 my-10 py-16 text-2xl">
-       <div className="countdown px-16">
-        <h1 className="text-4xl font-bold text-white text-center mb-10 ">Conference begins in</h1>
-      <div className=" flex justify-center items-center">
-      <Countdown targetDate="2025-02-14T23:59:59" />
-    </div>
-      </div>
+    <div className="timeline-section bg-sky-800   py-16 text-2xl">
+       
       <div className="text-4xl font-bold text-white  ">
-        <motion.h1 className="text-center" nitial={{ x: -1000 }} whileInView={{ x: 0 }}>
+        <motion.h1 className="text-center mb-10" nitial={{ x: -1000 }} whileInView={{ x: 0 }}>
           Important Dates{" "}
         </motion.h1>
       </div>

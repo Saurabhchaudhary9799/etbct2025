@@ -127,7 +127,7 @@ const Speakers = () => {
     {
         name: "Prof Ashok Pandey",
         designation:
-          "Distinguished Scientist, Centre for Innovation and Transitional Research, CSIR-IITR, Lucknow",
+          "Executive Director, Centre for Energy and Environmental Sustainability, Lucknow",
         photo: ashok,
       },
 

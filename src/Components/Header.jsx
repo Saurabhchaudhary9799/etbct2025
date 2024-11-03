@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import "../App.css";
 import { NavLink, Link, useLocation } from "react-router-dom";
+=======
+import { useState } from "react";
+import "../App.css";
+import { Link, useLocation } from "react-router-dom";
+>>>>>>> e458d52 (lazy loading done)
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 
@@ -15,11 +21,19 @@ const Header = () => {
       <header className=" lg:flex justify-around items-center  bg-sky-800 py-2   ">
         <div className="flex justify-between items-center px-4">
           <Link to="/">
+<<<<<<< HEAD
           <div className="text-2xl font-bold text-white ">
             ETBCT 2025 <span className="text-orange-500">| SMVDU</span>
           </div>
           </Link>
           
+=======
+            <div className="text-2xl font-bold text-white ">
+              ETBCT 2025 <span className="text-orange-500">| SMVDU</span>
+            </div>
+          </Link>
+
+>>>>>>> e458d52 (lazy loading done)
           <div className="block lg:hidden cursor-pointer" onClick={handleMenu}>
             {isOpen ? (
               <IoClose size={30} color="white" />
@@ -44,7 +58,11 @@ const Header = () => {
                     ? "text-orange-500"
                     : "hover:text-orange-500"
                 }`}
+<<<<<<< HEAD
                 onClick={()=>setIsOpen(false)}
+=======
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Home
               </Link>
@@ -57,7 +75,11 @@ const Header = () => {
                     ? "text-orange-500"
                     : "hover:text-orange-500"
                 }`}
+<<<<<<< HEAD
                 onClick={()=>setIsOpen(false)}
+=======
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 About
               </Link>
@@ -66,9 +88,17 @@ const Header = () => {
               <Link
                 to={"/call"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/call' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/call"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Call for abstract
               </Link>
@@ -77,9 +107,17 @@ const Header = () => {
               <Link
                 to={"/register"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/register' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/register"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Register
               </Link>
@@ -88,9 +126,17 @@ const Header = () => {
               <Link
                 to={"/committee"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/committee' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/committee"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Organizing Committee
               </Link>
@@ -99,11 +145,21 @@ const Header = () => {
               <Link
                 to={"/speakers"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/speakers' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
               >
                Invited Speakers
+=======
+                  location.pathname === "/speakers"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+              >
+                Invited Speakers
+>>>>>>> e458d52 (lazy loading done)
               </Link>
             </li>
 
@@ -111,9 +167,17 @@ const Header = () => {
               <Link
                 to={"/previous-conferences"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/previous-conferences' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/previous-conferences"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Previous Conferences
               </Link>
@@ -122,9 +186,17 @@ const Header = () => {
               <Link
                 to={"/sponsers"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/sponsers' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/sponsers"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Sponsorship
               </Link>
@@ -133,9 +205,17 @@ const Header = () => {
               <Link
                 to={"/gallery"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/gallery' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/gallery"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Gallery
               </Link>
@@ -144,9 +224,17 @@ const Header = () => {
               <Link
                 to={"/contact"}
                 className={`nav-link relative mx-4 my-4 md:mx-0 md:my-0 ${
+<<<<<<< HEAD
                   location.pathname === '/contact' ? 'text-orange-500' : 'hover:text-orange-500'
                 }`}
                 onClick={()=>setIsOpen(false)}
+=======
+                  location.pathname === "/contact"
+                    ? "text-orange-500"
+                    : "hover:text-orange-500"
+                }`}
+                onClick={() => setIsOpen(false)}
+>>>>>>> e458d52 (lazy loading done)
               >
                 Contact
               </Link>

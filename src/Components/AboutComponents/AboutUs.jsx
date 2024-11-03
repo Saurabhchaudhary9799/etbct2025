@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+>>>>>>> e458d52 (lazy loading done)
 import AboutCon from "./AboutCon";
 import AboutSobt from "./AboutSobt";
 import AboutSmvdu from "./AboutSmvdu";

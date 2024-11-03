@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import React from "react";
-=======
->>>>>>> e458d52 (lazy loading done)
 import Header from "./Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // import vc_profile from "../../../public/keyPersons/VC.jpg";
 import ratna from "../../../public/members/ratna.jpeg";
 import rasool from "../../../public/members/rasool.jpg";

@@ -116,7 +116,7 @@ const GalleryPage = () => {
               className="w-full h-auto max-h-[80vh] object-contain"
               src={selectedImage}
               alt="Selected"
-              loading="eager"
+              loading="lazy"
               decoding="sync"
             />
           </div>

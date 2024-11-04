@@ -1,8 +1,9 @@
 import { lazy, Suspense } from "react";
-const Carousel = lazy(() => import("../Components/AboutComponents/Carousel")); // import ChiefGuest from '../Components/CommiComponents/ChiefGuest'
+const Carousel = lazy(() => import("../Components/AboutComponents/Carousel")); 
+// import ChiefGuest from '../Components/CommiComponents/ChiefGuest'
 // import Vc from '../Components/CommiComponents/Vc'
+// import ConferenceConvener from "../Components/CommiComponents/ConferenceConvener";
 import ChiefPatron from "../Components/CommiComponents/ChiefPatron";
-import ConferenceConvener from "../Components/CommiComponents/ConferenceConvener";
 import CommitteeMembers from "../Components/CommiComponents/CommitteeMembers";
 import Registrar from "../Components/CommiComponents/Registrar";
 import SpecialMembers from "../Components/CommiComponents/SpecialMembers";
@@ -26,7 +27,7 @@ const CommitteePage = () => {
         {/* <ChiefGuest/> */}
         <ChiefPatron />
         <Registrar />
-        <ConferenceConvener />
+        {/* <ConferenceConvener /> */}
         <SpecialMembers />
         <CommitteeMembers />
         <WorkCoord />

@@ -35,6 +35,7 @@ const Carousel = () => {
           delay: 3000, // Delay between slides in ms
           disableOnInteraction: false, // Continue autoplay after user interaction
         }}
+        
       >
         <SwiperSlide>
           <div>

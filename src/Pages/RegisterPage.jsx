@@ -187,6 +187,53 @@ const RegisterPage = () => {
           </div>
         </div>
 
+        <div className="accommodation-details px-4 md:px-16 py-2 ">
+          <div className="container md:px-16 ">
+            <h1 className="text-3xl text-orange-500 pb-2">
+              Accommodation Details
+            </h1>
+
+            <ul className="list-decimal pl-4 space-y-3 pb-2">
+              <li>
+                <h3>
+                  <span className="font-bold">Hotel : </span>Shivalik Hotel
+                </h3>
+                <h4>
+                  <span className="font-bold">Phone no : </span> +917889501488
+                </h4>
+              </li>
+              <li>
+                <h3>
+                  <span className="font-bold">Hotel : </span>Janta Hotel
+                </h3>
+                <h4>
+                  <span className="font-bold">Phone no : </span> +917006896319
+                </h4>
+              </li>
+              <li>
+                <h3>
+                  <span className="font-bold">Hotel : </span>Vipul Palace  Hotel
+                </h3>
+                <h4>
+                  <span className="font-bold">Phone no : </span> +9170064 37782
+                </h4>
+              </li>
+              <li>
+                <h3>
+                  <span className="font-bold">Hotel : </span>Shakuntala Hotel
+                </h3>
+                <h4>
+                  <span className="font-bold">Phone no : </span> +917006896319
+                </h4>
+              </li>
+            </ul>
+
+            <p className="text-lg font-bold pb-3">
+            *For accommodation, please contact the listed hotels, which will offer discounted rates for conference attendees.
+            </p>
+          </div>
+        </div>
+
         <div className="py-10 px-4 md:px-16 bg-sky-800">
           <div className="container mx-auto">
             <h1 className="text-3xl text-center font-bold text-white mb-8">

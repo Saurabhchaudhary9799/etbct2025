@@ -16,6 +16,7 @@ import bg8 from "../../../public/banner/bg8.jpg";
 
 const Carousel = () => {
   return (
+  <>
     <Swiper
       modules={[Navigation, Pagination, Autoplay, EffectFade]}
       spaceBetween={50}
@@ -110,6 +111,8 @@ const Carousel = () => {
         </div>
       </SwiperSlide>
     </Swiper>
+  
+    </>
   );
 };
 

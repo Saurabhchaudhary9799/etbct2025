@@ -6,6 +6,7 @@ const AboutSmvdu = () => {
       <motion.div
         initial={{ x: 200 }}
         whileInView={{ x: 0 }}
+        viewport={{once:true}}
         className="w-full md:w-3/6 flex justify-center items-start"
       >
         <img
@@ -18,6 +19,7 @@ const AboutSmvdu = () => {
       <motion.div
         initial={{ x: -200 }}
         whileInView={{ x: 0 }}
+        viewport={{once:true}}
         className="w-full md:w-3/6 flex flex-col  gap-y-5"
       >
         <h1 className="text-2xl text-orange-500 font-bold  ">About SMVDU</h1>

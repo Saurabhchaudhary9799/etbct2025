@@ -2,10 +2,12 @@ import Header from "./Header";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import smvduLogo from "../../public/logo.png";
+import Notification from "./Notification";
 
 const Layout = () => {
   return (
     <div className="overflow-x-hidden">
+      <Notification/>
        <div className="conference-details py-5 border ">
         <div className=" flex justify-center items-center ">
           <div>

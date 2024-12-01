@@ -22,7 +22,7 @@ const CallPage = () => {
           <div className="w-full md:w-3/6 flex flex-col justify-start items-start gap-y-5">
             <p className="text-lg">
               Authors are requested to submit abstract (250 words) by filling
-              the registration form latest by 30 November,2024. The abstract
+              the registration form latest by 31 December,2024. The abstract
               should be typed in MS word, Times New Roman, 12 font size and 1.5
               line spacing. The recommended poster size shall be 120 x 100 cm.
             </p>

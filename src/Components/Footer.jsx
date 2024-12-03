@@ -70,7 +70,7 @@ const Footer = () => {
         </a>
       </div>
       <a
-        href="https://drive.google.com/file/d/1Ijn0UEHqoF2Mb0uC33wDSYTBp9GdNUCe/view?usp=sharing"
+        href="https://drive.google.com/file/d/1T4xZ6wmcd4xCz5oKfnSpkS6fcxXhh7q6/view?usp=drivesdk"
         className="bg-orange-500 text-white animate-bounce  p-3 rounded-xl"
         target="_blank"
       >

@@ -26,7 +26,7 @@ const WorkshopMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Dr. Rakesh Kumar
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            <p className="text-lg text-center">Associate Professor, SoBT</p>
             <p className="text-lg text-center">Workshop Co-Coordinator</p>
           </div>
         </motion.div>
@@ -46,7 +46,7 @@ const WorkshopMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Dr. Raju Shankarayan
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            <p className="text-lg text-center">Associate Professor, SoBT</p>
             <p className="text-lg text-center">Workshop Co-Coordinator</p>
           </div>
         </motion.div>
@@ -66,7 +66,7 @@ const WorkshopMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Dr. Preeti Sharma
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            <p className="text-lg text-center">Associate Professor, SoBT</p>
             <p className="text-lg text-center">Workshop Co-Coordinator</p>
           </div>
         </motion.div>

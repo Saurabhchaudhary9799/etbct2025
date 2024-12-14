@@ -9,6 +9,8 @@ import Registrar from "../Components/CommiComponents/Registrar";
 import SpecialMembers from "../Components/CommiComponents/SpecialMembers";
 import WorkshopMembers from "../Components/CommiComponents/WorkshopMembers";
 import WorkCoord from "../Components/CommiComponents/WorkCoord";
+import ConferenceConvener from "../Components/CommiComponents/ConferenceConvener";
+import AdvisoryCommittee from "../Components/CommiComponents/AdvisoryCommittee";
 
 const CommitteePage = () => {
   return (
@@ -27,11 +29,12 @@ const CommitteePage = () => {
         {/* <ChiefGuest/> */}
         <ChiefPatron />
         <Registrar />
-        {/* <ConferenceConvener /> */}
+        <ConferenceConvener />
         <SpecialMembers />
         <CommitteeMembers />
         <WorkCoord />
         <WorkshopMembers />
+        <AdvisoryCommittee/>
       </section>
     </>
   );

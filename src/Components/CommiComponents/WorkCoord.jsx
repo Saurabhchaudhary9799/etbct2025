@@ -19,11 +19,9 @@ const WorkCoord = () => {
           <h1 className="text-2xl text-orange-500 font-bold">
             Dr. Sharada Potukuchi
           </h1>
-          {/* <h3 className='text-xl font-bold'>Associate Professor, School of Biotechnology</h3> */}
+          <h3 className='text-xl font-bold'>Professor, School of Biotechnology</h3>
           <p className="text-lg text-justify">
-            Dr. Sharada Potukuchi, Associate Professor and former Head of the
-            School of Biotechnology at Shri Mata Vaishno Devi University, Katra,
-            J&K, has served as the Dean of Academic Affairs at the university.
+            Dr. Sharada Potukuchi has served as the Dean of Academic Affairs at the university.
             Dr. Potukuchi specializes in Plant Tissue Culture for Secondary
             Metabolite Production and Genetic Engineering. She completed her
             Ph.D. in Botany from Punjab University and conducted post-doctoral

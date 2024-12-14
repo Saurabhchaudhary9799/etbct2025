@@ -20,11 +20,11 @@ const ConferenceConvener = () => {
           <h1 className="text-2xl text-orange-500 font-bold">
             Dr. Indu Bhushan
           </h1>
+          <p className="font-bold text-xl">Associate Professor, School of Biotechnology</p>
           {/* <h3 className='text-xl font-bold'> Assistant Professor , School of Biotechnology</h3> */}
           <p className="text-lg text-justify">
             {" "}
-            Dr. Indu Bhushan, Senior Assistant Professor at School of
-            Biotechnology, Shri Mata Vaishno Devi University, specializes in
+            Dr. Indu Bhushan specializes in
             Human Microbiome, Enzymology, and Nanotechnology. With over 20 years
             of research and 16 years of teaching experience, Dr. Bhushan has
             made significant contributions to biosciences through various

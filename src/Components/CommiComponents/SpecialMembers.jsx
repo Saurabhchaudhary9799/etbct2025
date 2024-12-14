@@ -24,11 +24,10 @@ const SpecialMembers = () => {
             <h1 className="text-2xl text-orange-500 font-bold">
               Dr. Ratna Chandra
             </h1>
-            {/* <h3 className='text-xl font-bold'>Head, School of Biotechnology</h3> */}
+            <h3 className='text-xl font-bold'>Professor, Head, School of Biotechnology</h3>
             <p className="text-lg text-justify">
               {" "}
-              Dr. Ratna Chandra, Associate Professor in the Department of
-              Biotechnology at Shri Mata Vaishno Devi University, Katra, holds a
+              Dr. Ratna Chandra holds a
               B.Sc. in Botany from Miranda House, Delhi University, an M.Sc. in
               Molecular Biology and Biotechnology, and a Ph.D. from the National
               Research Center on Plant Biotechnology, IARI, Delhi. Her research
@@ -59,11 +58,11 @@ const SpecialMembers = () => {
             <h1 className="text-2xl text-orange-500 font-bold">
               Dr. Shafaq Rasool
             </h1>
+            <p className="font-bold text-xl">Associate Professor, School of Biotechnology</p>
             {/* <h3 className='text-xl font-bold'>Assistant Professor, School of Biotechnology</h3> */}
             <p className="text-lg text-justify">
               {" "}
-              Dr. Shafaq Rasool, Assistant Professor at the School of
-              Biotechnology, Shri Mata Vaishno Devi University. She has years of
+              Dr. Shafaq Rasool has years of
               teaching and research experience, with a Ph.D. in Biotechnology
               from Guru Nanak Dev University and the Indian Institute of
               Integrative Medicine, Jammu. Her doctoral research focused on the
@@ -92,10 +91,10 @@ const SpecialMembers = () => {
             <h1 className="text-2xl text-orange-500 font-bold">
               Dr. Parvez Singh Slathia
             </h1>
+            <p className="font-bold text-xl">Associate Professor, School of Biotechnology</p>
             {/* <h3 className='text-xl font-bold'>Assistant Professor, School of Biotechnology</h3> */}
             <p className="text-lg text-justify">
-              Dr. Parvez Singh Slathia, Assistant Professor in the Department of
-              Biotechnology at Shri Mata Vaishno Devi University. His research
+              Dr. Parvez Singh Slathia
               focuses on bioinformatics for vaccine design, bioethanol
               production from lignocellulosic materials, and probiotic studies
               on lactic acid bacteria. He has led several externally funded

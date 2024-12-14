@@ -85,7 +85,7 @@ const Timeline = () => {
               </div>
               <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>10</div>
-                <div className="font-bold text-orange-500">DEC</div>
+                <div className="font-bold text-orange-500">JAN</div>
                 <div>2024</div>
               </div>
             </div>

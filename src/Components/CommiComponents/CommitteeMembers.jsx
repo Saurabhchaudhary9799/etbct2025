@@ -26,7 +26,8 @@ const CommitteeMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Dr. Vinod Singh
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            {/* <p className="font-bold text-xl">Associate Professor, School of Biotechnology</p> */}
+            <p className="text-lg text-center">Assistant Professor, SoBT</p>
             <p className="text-lg text-center">Co-Organizing Secretary</p>
           </div>
         </motion.div>
@@ -46,7 +47,7 @@ const CommitteeMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Mr. Arvind Kumar Yadav
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            <p className="text-lg text-center">Assistant Professor, SoBT</p>
             <p className="text-lg text-center">Co-Organizing Secretary</p>
           </div>
         </motion.div>
@@ -66,7 +67,7 @@ const CommitteeMembers = () => {
             <h1 className="text-xl text-orange-500 text-center">
               Dr. Anil Kumar
             </h1>
-            {/* <p className="text-lg text-center">Assistant Professor, SoBT</p> */}
+            <p className="text-lg text-center">Associate Professor, SoBT</p>
             <p className="text-lg text-center">Co-Organizing Secretary</p>
           </div>
         </motion.div>

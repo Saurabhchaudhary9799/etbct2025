@@ -2,7 +2,7 @@ import React from 'react'
 
 const AdvisoryCommittee = () => {
   return (
-    <div className='advisory-committee spx-8 md:px-16 flex flex-col gap-y-5'> 
+    <div className='advisory-committee px-8 md:px-16 flex flex-col gap-y-5'> 
     <h1 className="text-3xl bg-sky-800 pl-5 text-white font-extrabold  mb-3 py-2">
         International Advisory Committee
       </h1>
@@ -10,7 +10,7 @@ const AdvisoryCommittee = () => {
   <table className="table border-collapse w-full text-lg">
     <tbody>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Umesh R. Desai
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -18,7 +18,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Ram B. Gupta
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -26,7 +26,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Pau-Loke Show
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -34,7 +34,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Srinivas Sistla
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -42,7 +42,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Manoj Kandpal
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -50,7 +50,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Manoj Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -58,7 +58,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Alhumaidi Alabbas
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -66,7 +66,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Musarat Amina
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -74,7 +74,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Touseef Amna
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -95,7 +95,7 @@ const AdvisoryCommittee = () => {
   <table className="table border-collapse w-full text-lg">
     <tbody>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Pragati Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -103,7 +103,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Manoj Singh Gaur
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -111,7 +111,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Zabeer Ahmed
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -119,7 +119,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Ashok Pandey
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -127,7 +127,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Namita Singh
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -135,7 +135,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Ashutosh Gupta
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -143,7 +143,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. R.K. Salgotra
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -151,7 +151,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Bijender Kumar Bajaj
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -159,7 +159,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Pravir Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -167,7 +167,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Jai Gopal Sharma
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -175,7 +175,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Vinod Singh
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -183,7 +183,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Yash Pal Sharma
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -191,7 +191,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Brijmohan Singh Bhau
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -199,7 +199,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Shilpi Sharma
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -207,7 +207,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Kashyap Kumar Dubey
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -215,7 +215,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Sanjay Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -223,7 +223,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Vinod Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -231,7 +231,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Prof. Sandeep Sharma
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -239,7 +239,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Vipin Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -247,7 +247,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. S. Riyaz ul Hassan
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -255,7 +255,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Asha Chaubey
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -263,7 +263,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Sumit G. Gandhi
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -271,7 +271,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Vinay Kumar
         </td>
         <td className="border border-slate-300 p-3 text-left">
@@ -279,7 +279,7 @@ const AdvisoryCommittee = () => {
         </td>
       </tr>
       <tr>
-        <td className="border border-slate-300 p-3 text-center min-w-[300px]">
+        <td className="border border-slate-300 p-3 text-center min-w-[200px] md:min-w-[300px]">
           Dr. Shekhar Agnihotri
         </td>
         <td className="border border-slate-300 p-3 text-left">

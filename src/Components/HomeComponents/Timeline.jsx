@@ -86,7 +86,7 @@ const Timeline = () => {
               <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
                 <div>10</div>
                 <div className="font-bold text-orange-500">JAN</div>
-                <div>2024</div>
+                <div>2025</div>
               </div>
             </div>
             <span className=" hidden lg:block left-container-arrow h-0 w-0 absolute top-[13px] z-[1] border-[15px]  border-solid border-transparent border-l-[#fff]   -right-[29px] "></span>

@@ -222,7 +222,7 @@ const RegisterPage = () => {
                   <span className="font-bold">Hotel : </span>Shakuntala Hotel
                 </h3>
                 <h4>
-                  <span className="font-bold">Phone no : </span> +917006896319
+                  <span className="font-bold">Phone no : </span> +919797495370
                 </h4>
               </li>
             </ul>

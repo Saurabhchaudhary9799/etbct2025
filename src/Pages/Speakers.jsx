@@ -39,7 +39,7 @@ import piyush_pandey from "../../public/Speakers/piyush_pandey.png";
 import sumit from "../../public/Speakers/sumit.png";
 import arshi from "../../public/Speakers/arshi.png";
 import image_placeholder from "../../public/Speakers/image_place.jpg";
-
+import mussarat from "../../public/Speakers/mussarat.jpg"
 
 const Speakers = () => {
   const speakers = [
@@ -156,7 +156,7 @@ const Speakers = () => {
     {
       name: "Prof. Mussarat Amin",
       designation: "Professor, Department of Pharmacognosy, King Saud University, Saudi Arabia",
-      photo: image_placeholder,
+      photo: mussarat,
     },
 
 

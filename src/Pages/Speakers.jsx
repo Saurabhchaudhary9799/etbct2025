@@ -40,6 +40,8 @@ import sumit from "../../public/Speakers/sumit.png";
 import arshi from "../../public/Speakers/arshi.png";
 import image_placeholder from "../../public/Speakers/image_place.jpg";
 import mussarat from "../../public/Speakers/mussarat.jpg"
+import poonam from "../../public/Speakers/poonam.jpg"
+import deepak_bharadwaj from "../../public/Speakers/deepak.jpg"
 
 const Speakers = () => {
   const speakers = [
@@ -158,6 +160,11 @@ const Speakers = () => {
       designation: "Professor, Department of Pharmacognosy, King Saud University, Saudi Arabia",
       photo: mussarat,
     },
+    {
+      name:"Dr. Poonam Singh Nigam",
+      designation:"Professor, Biomedical Sciences Research Institute, Ulster University, Coleraine, Northern Ireland, United Kingdom",
+      photo:poonam
+    },
 
 
     // Principal Scientists
@@ -213,6 +220,12 @@ const Speakers = () => {
       photo: zainul,
     },
     {
+      name: "Dr. Deepak Bhardwaj ",
+      designation:
+        "Associate Professor, Botany Department, Central University of Jammu",
+      photo: deepak_bharadwaj,
+    },
+    {
       name: "Dr. Nowsheen Nazir",
       designation:
         "Associate Professor, Department of Fruit Science, SKUAST Kashmir",
@@ -223,6 +236,7 @@ const Speakers = () => {
       designation: "Senior Scientist, Sidra Medicine, Qatar",
       photo: manoj,
     },
+    
     // {
     //   name: "Dr. Vinay Kumar",
     //   designation:
@@ -276,6 +290,7 @@ const Speakers = () => {
         "Sam Higginbottom Institute of Agriculture, Technology and Sciences, Deemed University, Allahabad ",
       photo: arshi,
     },
+    
 
     // {
     //   name: "Dr. Manisha Bhagat",

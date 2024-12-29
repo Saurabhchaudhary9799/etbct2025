@@ -225,6 +225,14 @@ const RegisterPage = () => {
                   <span className="font-bold">Phone no : </span> +919797495370
                 </h4>
               </li>
+              <li>
+                <h3>
+                  <span className="font-bold">Hotel : </span>Sanjeevani 
+                </h3>
+                <h4>
+                  <span className="font-bold">Phone no : </span> +9194199 15907
+                </h4>
+              </li>
             </ul>
 
             <p className="text-lg font-bold pb-3">

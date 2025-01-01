@@ -59,7 +59,7 @@ const Timeline = () => {
                 Abstract Submission Last Date
               </div>
               <div className="w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
-                <div>10th</div>
+                <div>10</div>
                 <div className="font-bold text-orange-500">JAN</div>
                 <div>2025</div>
               </div>
@@ -84,7 +84,7 @@ const Timeline = () => {
                 Abstract acceptence
               </div>
               <div className=" w-2/6 xl:w-1/6 flex flex-col justify-center items-center px-2">
-                <div>10</div>
+                <div>20</div>
                 <div className="font-bold text-orange-500">JAN</div>
                 <div>2025</div>
               </div>

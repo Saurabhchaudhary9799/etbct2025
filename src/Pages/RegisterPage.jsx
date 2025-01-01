@@ -53,7 +53,7 @@ const RegisterPage = () => {
                     </th>
                     <th className="border border-slate-300 p-3 text-center whitespace-normal">
                       Early Bird <br />
-                      (Upto 31.12.2024)
+                      (Upto 10.01.2025)
                     </th>
                     <th className="border border-slate-300 p-3 text-center">
                       Late Registration

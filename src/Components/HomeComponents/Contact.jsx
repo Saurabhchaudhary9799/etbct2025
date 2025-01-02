@@ -1,42 +1,47 @@
 import { FaPhone } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+
 const Contact = () => {
   return (
-    <div className="contact-section bg-sky-800 py-10 flex flex-col justify-center items-center  ">
+    <div className="contact-section bg-sky-800 py-10 flex flex-col justify-center items-center">
       <div className="text-2xl sm:text-4xl text-center mb-10 text-white">
         <h1>Contact Us</h1>
       </div>
       <div className="flex md:flex-row md:gap-x-5 gap-y-5 flex-col justify-center items-center">
-        <div className=" w-full md:w-3/6 px-8 md:px-16 flex flex-col gap-y-3 text-white">
+        <div className="w-full md:w-3/6 px-8 md:px-16 flex flex-col gap-y-3 text-white">
           <div>
-            <h1 className="text-xl sm:text-3xl  font-bold">
+            <h1 className="text-xl sm:text-3xl font-bold">
               Get in touch with us
             </h1>
-            <h3 className="text-lg sm:text-2xl  font-regular">
-              In case of any query, Feel free to contact us.
+            <h3 className="text-lg sm:text-2xl font-regular">
+              In case of any query, feel free to contact us.
             </h3>
           </div>
           <div className="flex justify-start items-center gap-x-3 text-white">
             <span className="text-orange-500 text-xl">
               <FaPhone />
-            </span>{" "}
-            +91 9419320051, +91 6005178581, +91 8494064581
+            </span>
+            <div>
+              <p>Dr. Indu Bhushan: +91 9419320051</p>
+              <p>Chitrakshi Chopra: +91 6005178581</p>
+              <p>Kritika Sharma: +91 8494064581</p>
+            </div>
           </div>
           <div className="flex justify-start items-center gap-x-3 text-white">
             <span className="text-orange-500 text-xl">
               <IoIosMail />
-            </span>{" "}
+            </span>
             etbct-2025@smvdu.ac.in
           </div>
           <div className="flex justify-start items-center gap-x-3 text-white">
             <span className="text-orange-500 text-xl">
               <FaLocationDot />
-            </span>{" "}
+            </span>
             School of Biotechnology, SMVDU, Katra, India - 182320.
           </div>
         </div>
-        <div className="w-full md:w-3/6 flex justify-center items-center px-8 ">
+        <div className="w-full md:w-3/6 flex justify-center items-center px-8">
           <iframe
             className="rounded-xl w-full h-48 sm:w-64 sm:h-64 md:w-96 md:h-96"
             loading="lazy"
@@ -46,6 +51,6 @@ const Contact = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

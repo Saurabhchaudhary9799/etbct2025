@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import smvduLogo from "../../public/logo.png";
 import Notification from "./Notification";
 import mst from "../../public/Sponsors/1st.png";
+import dobtmst from "../../public/Sponsors/2nd.png";
 const Layout = () => {
   return (
     <div className="overflow-x-hidden">
@@ -37,8 +38,21 @@ const Layout = () => {
       <div className="sponsor-section py-10 bg-gray-200">
         <div className="container space-y-3 mx-auto">
           <h1 className="text-center text-3xl ">Sponsors</h1>
-          <div className="flex justify-center items-center">
-            <img className="w-48 h-48" src={mst} alt="minister of science and technology logo" />
+          <div className="flex-col flex sm:flex-row justify-center items-center gap-y-10 sm:gap-x-10">
+            <div className="flex justify-center items-center">
+              <img
+                className="w-48 h-48"
+                src={mst}
+                alt="minister of science and technology logo"
+              />
+            </div>
+            <div className="flex justify-center items-center ">
+              <img
+                className="w-48 h-48"
+                src={dobtmst}
+                alt="department of biotechnology minister of science and technology logo"
+              />
+            </div>
           </div>
         </div>
       </div>

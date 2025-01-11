@@ -53,7 +53,7 @@ const RegisterPage = () => {
                     </th>
                     <th className="border border-slate-300 p-3 text-center whitespace-normal">
                       Early Bird <br />
-                      (Upto 10.01.2025)
+                      (Upto 20.01.2025)
                     </th>
                     <th className="border border-slate-300 p-3 text-center">
                       Late Registration
@@ -211,7 +211,7 @@ const RegisterPage = () => {
               </li>
               <li>
                 <h3>
-                  <span className="font-bold">Hotel : </span>Vipul Palace  Hotel
+                  <span className="font-bold">Hotel : </span>Vipul Palace Hotel
                 </h3>
                 <h4>
                   <span className="font-bold">Phone no : </span> +9170064 37782
@@ -227,7 +227,7 @@ const RegisterPage = () => {
               </li>
               <li>
                 <h3>
-                  <span className="font-bold">Hotel : </span>Sanjeevani 
+                  <span className="font-bold">Hotel : </span>Sanjeevani
                 </h3>
                 <h4>
                   <span className="font-bold">Phone no : </span> +9194199 15907
@@ -236,7 +236,8 @@ const RegisterPage = () => {
             </ul>
 
             <p className="text-lg font-bold pb-3">
-            *For accommodation, please contact the listed hotels, which will offer discounted rates for conference attendees.
+              *For accommodation, please contact the listed hotels, which will
+              offer discounted rates for conference attendees.
             </p>
           </div>
         </div>

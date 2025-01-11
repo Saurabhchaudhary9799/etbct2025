@@ -16,7 +16,7 @@ const ImportantDates = () => {
         </div>
         <div className="border h-48  w-full md:w-2/6 bg-blue-300 flex flex-col justify-center gap-y-2 rounded-xl">
           <h1 className="text-3xl font-bold text-gray-700 text-center">
-            10<sup>th</sup> JAN, 2025
+            20<sup>th</sup> JAN, 2025
           </h1>
           <p className="text-2xl font-regular text-gray-700 text-center">
             Abstracts submission deadline
@@ -24,7 +24,7 @@ const ImportantDates = () => {
         </div>
         <div className="border h-48  w-full md:w-2/6 bg-green-300 flex flex-col justify-center gap-y-2 rounded-xl">
           <h1 className="text-3xl font-bold text-gray-700 text-center">
-            20<sup>th</sup> JAN, 2025
+            30<sup>th</sup> JAN, 2025
           </h1>
           <p className="text-xl md:text-2xl font-regular text-gray-700 text-center">
             Abstract acceptance{" "}

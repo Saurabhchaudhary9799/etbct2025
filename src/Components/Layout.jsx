@@ -5,6 +5,9 @@ import smvduLogo from "../../public/logo.png";
 import Notification from "./Notification";
 import mst from "../../public/Sponsors/1st.png";
 import dobtmst from "../../public/Sponsors/2nd.png";
+import tfmst from "../../public/Sponsors/3rd.jpeg";
+import jkbmst from "../../public/Sponsors/4th.jpeg";
+
 const Layout = () => {
   return (
     <div className="overflow-x-hidden">
@@ -50,6 +53,20 @@ const Layout = () => {
               <img
                 className="w-48 h-48"
                 src={dobtmst}
+                alt="department of biotechnology minister of science and technology logo"
+              />
+            </div>
+            <div className="flex justify-center items-center ">
+              <img
+                className="w-48 h-48"
+                src={tfmst}
+                alt="department of biotechnology minister of science and technology logo"
+              />
+            </div>
+            <div className="flex justify-center items-center ">
+              <img
+                className="w-48 h-48"
+                src={jkbmst}
                 alt="department of biotechnology minister of science and technology logo"
               />
             </div>

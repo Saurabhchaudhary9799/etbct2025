@@ -69,13 +69,23 @@ const Footer = () => {
           <FaInstagram size={30} />
         </a>
       </div>
-      <a
-        href="https://drive.google.com/file/d/12MAM0j18NILLOetUNQvASJ0h9l_BhAOc/view?usp=sharing"
-        className="bg-orange-500 text-white animate-bounce  p-3 rounded-xl"
-        target="_blank"
-      >
-        Download Brochure
-      </a>
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-y-5 sm:gap-x-5 ">
+        <a
+          href="https://drive.google.com/file/d/12MAM0j18NILLOetUNQvASJ0h9l_BhAOc/view?usp=sharing"
+          className="bg-orange-500 text-white animate-bounce  p-3 rounded-full"
+          target="_blank"
+        >
+          Download Brochure
+        </a>
+
+        <a
+          href="https://drive.google.com/file/d/1wrfn4fKA7nkZ-6F-KsLcPirvAFqbVu8H/view?usp=drive_link"
+          className="bg-blue-800 text-white animate-bounce  p-3 rounded-full"
+          target="_blank"
+        >
+          Download Conference Schedule
+        </a>
+      </div>
       <p className="text-center ">
         Shri Mata Vaishno Devi University @2024 All Rights Reserved
       </p>
